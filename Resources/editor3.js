@@ -6,6 +6,7 @@ var textarea = Titanium.UI.createTextArea({
 	right:4,
 	height: 180,
     value: win.serif,
+    suppressReturn: false,
     font:{fontSize:12},
     color:'#000',
     textAlign:'left',
